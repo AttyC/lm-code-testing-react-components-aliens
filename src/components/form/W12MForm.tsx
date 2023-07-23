@@ -1,13 +1,12 @@
 import W12MHeader from '../form/W12MHeader';
-
+import Species from './form-fields/Species';
 
 const W12MForm = () => {
   return (
     <section className='w12MForm'>
       <W12MHeader />
       <form>
-        <label htmlFor='species'>Species name:</label>
-        <input type='text' name='species' />
+        <Species />
         <label htmlFor='planet'>Planet name:</label>
         <input type='text' name='planet' />
 

@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import Species from './Species';
+import SpeciesName from './SpeciesName';
 
 test('renders header text', () => {
-  render(<Species />);
+  render(<SpeciesName />);
   const speciesInput = screen.getByTestId('species');
   expect(speciesInput).toBeInTheDocument();
 });

@@ -1,4 +1,5 @@
-import W12MHeader from './W12MHeader';
+import W12MHeader from '../form/W12MHeader';
+
 
 const W12MForm = () => {
   return (
@@ -7,7 +8,6 @@ const W12MForm = () => {
       <form>
         <label htmlFor='species'>Species name:</label>
         <input type='text' name='species' />
-
         <label htmlFor='planet'>Planet name:</label>
         <input type='text' name='planet' />
 
